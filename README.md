@@ -8,6 +8,17 @@ yarn add react-native-audio-record
 react-native link react-native-audio-record
 ```
 
+## iOS
+```
+cd ios
+pod install
+```
+
+## Android
+```
+Sync Gradle
+```
+
 ## Usage
 ```js
 import AudioRecord from 'react-native-audio-record';

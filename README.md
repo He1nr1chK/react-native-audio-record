@@ -16,7 +16,7 @@ pod install
 
 ## Android
 ```
-Sync Gradle
+sync Gradle
 ```
 
 ## Usage

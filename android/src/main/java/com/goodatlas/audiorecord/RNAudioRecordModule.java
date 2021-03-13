@@ -85,7 +85,7 @@ public class RNAudioRecordModule extends ReactContextBaseJavaModule {
         eventEmitter = reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class);
 
         bufferSize = AudioRecord.getMinBufferSize(sampleRateInHz, channelConfig, audioFormat);
-        int recordingBufferSize = bufferSize * 3;
+        int recordingBufferSize = bufferSize * 4;
         recorder = new AudioRecord(audioSource, sampleRateInHz, channelConfig, audioFormat, recordingBufferSize);
     }
 
